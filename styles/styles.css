@@ -25,16 +25,19 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  grid-gap: 1em;
   margin: 0 auto;
   padding: 2em 1em 0 1em;
   width: 100%;
 }
 
 .links {
-  grid-gap: 1em;
   display: flex;
   justify-content: space-between;
+}
+
+/* give each link a margin on right except for last child  */
+.links a:not(:last-child) {
+  margin-right: 1em;
 }
 
 .link {
@@ -47,7 +50,6 @@ body {
 
 .social-links-nav {
   display: none;
-  grid-gap: 1em;
 }
 
 .social-links-footer {
@@ -131,10 +133,14 @@ body {
 .project-footer {
   display: flex;
   justify-content: flex-end;
-  grid-gap: 1em;
   flex-wrap: wrap;
   padding: 0 1em;
   margin-top: 0.5em;
+}
+
+/* give each link in footer a right margin except for last child */
+.project-footer a:not(:last-child) {
+  margin-right: 1em;
 }
 
 .project-name {
