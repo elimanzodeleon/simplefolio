@@ -5,10 +5,17 @@ export interface Link {
   icon: string;
 }
 
-export interface Project {
+export interface IProject {
   id: number;
   name: string;
   url: string;
   codeUrl: string;
   description: string;
+  tools: tool[];
+}
+
+interface tool {
+  id: number;
+  name: string;
+  url: string;
 }

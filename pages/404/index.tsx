@@ -8,7 +8,6 @@ const Error = () => {
       <Head>
         <title>404</title>
         <link rel='icon' href='/favicon.ico' />
-        {/* <link rel='stylesheet' href='/styles.css' /> */}
         <link rel='preconnect' href='https://fonts.gstatic.com' />
         <link
           href='https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap'
@@ -18,7 +17,7 @@ const Error = () => {
       <main className='error-container'>
         <img src='/images/patrick.png' alt='404' />
         <div className='error-details'>
-          <h1 className='error-title'>Oh S#*t!</h1>
+          <h1 className='error-title'>La vache!</h1>
           <p>This page doesn't exist.</p>
           <Link href='/'>
             <a className='link error-link'>home</a>
