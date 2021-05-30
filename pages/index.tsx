@@ -14,7 +14,6 @@ const Home = () => {
           content="I'm a full-stack software engineer based in Los Angeles, CA."
         />
         <link rel='icon' href='/favicon.ico' />
-        {/* <link rel='stylesheet' href='/styles.css' /> */}
         <link rel='preconnect' href='https://fonts.gstatic.com' />
         <link
           href='https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap'
