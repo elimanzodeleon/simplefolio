@@ -27,12 +27,31 @@ export const bio: string[] = [
 
 export const projects: IProject[] = [
   {
+    id: 2,
+    name: 'Liftona',
+    url: 'https://liftona.netlify.app/',
+    codeUrl: 'https://github.com/elimanzodeleon/liftona-frontend',
+    description:
+      'Liftona is a web application that allows users to find and share workouts. Users can then find other users to follow, search for workouts and like workouts that have been posted. Each form has rigorous validation that helps prevent unnecessary requests from being made to the server. The front end was designed using a mobile-first approach using styled components. Flexbox was used as the main layoout model.',
+    tools: [
+      { id: 0, name: 'React', url: 'https://reactjs.org/' },
+      { id: 1, name: 'Node', url: 'https://nodejs.org/en/' },
+      { id: 2, name: 'Express', url: 'https://expressjs.com/' },
+      { id: 3, name: 'MongoDB', url: 'https://www.mongodb.com/' },
+      {
+        id: 4,
+        name: 'Styled Components',
+        url: 'https://styled-components.com/',
+      },
+    ],
+  },
+  {
     id: 1,
     name: 'Next Shop',
     url: 'https://next-shop-bice.vercel.app/',
     codeUrl: 'https://github.com/elimanzodeleon/NextShop',
     description:
-      'Next Shop is an E-commerce web app that allows users to purchase items listed by root users. Every page on this E-commerce site is rendered on the server. This allows users to experience faster performance by having increased time to interactive that is brought by server-side rendering.',
+      'Next Shop is an E-commerce web app that allows users to purchase items listed by root users. Every page on this E-commerce site is rendered on the server. This allows users to experience faster performance by having increased time to interactive that is brought by server-side rendering. The backend is currently still in development.',
     tools: [
       { id: 0, name: 'Next', url: 'https://nextjs.org/' },
       { id: 1, name: 'Node', url: 'https://nodejs.org/en/' },
