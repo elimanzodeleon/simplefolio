@@ -32,7 +32,7 @@ export const projects: IProject[] = [
     url: 'https://liftona.netlify.app/',
     codeUrl: 'https://github.com/elimanzodeleon/liftona-frontend',
     description:
-      'Liftona is a web application that allows users to find and share workouts. Users can then find other users to follow, search for workouts and like workouts that have been posted. Each form has rigorous validation that helps prevent unnecessary requests from being made to the server. The front end was designed using a mobile-first approach using styled components. Flexbox was used as the main layoout model.',
+      'Liftona is a web application that allows users to find and share workouts. Users can then find other users to follow, search for workouts and like workouts that have been posted. Each form has rigorous validation that helps prevent unnecessary requests from being made to the server. The front end was designed using a mobile-first approach with styled components. Flexbox was used as the main layoout model.',
     tools: [
       { id: 0, name: 'React', url: 'https://reactjs.org/' },
       { id: 1, name: 'Node', url: 'https://nodejs.org/en/' },
